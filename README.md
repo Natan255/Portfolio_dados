@@ -4,15 +4,23 @@ Bem-vindo ao meu repositório central de projetos de Dados. Aqui documento solu�
 
 ## Stack Tecnológica
 
-* **Linguagens:** Python (Pandas), SQL (DDL, DML, DQL)
-* **Bancos de Dados:** MySQL, PostgreSQL
+* **Linguagens:** Python (Pandas, Requests), SQL (DDL, DML, DQL)
+* **Bancos de Dados:** MySQL, PostgreSQL, MariaDB
+* **Orquestração & Infraestrutura:** Apache Airflow, Docker, Linux (Termux), Cloudflare Tunnels, Tailscale
 * **Modelagem & Fundamentos:** Diagrama ER, Modelo Lógico, Normalização (1FN, 2FN, 3FN), Álgebra Relacional
-* **Visualização & BI:** Power BI
-* **Ferramentas:** Jupyter Notebook, Git/GitHub, Linux
+* **Visualização & BI:** Power BI, Metabase
+* **Ferramentas:** Jupyter Notebook, Git/GitHub
 
 ---
 
 ## Projetos em Destaque
+
+### [Homelab Data Pipeline: Clima RJ](./homelab-clima-rj)
+Pipeline de dados de ponta a ponta orquestrado com Apache Airflow (Docker) e hospedado em um servidor caseiro de baixo custo (tablet Android com Termux).
+* **Destaques técnicos:** Automação diária de ETL (extração via API Open-Meteo, transformação com Pandas e carga no MariaDB); infraestrutura resiliente com `termux-services`; conexão segura via VPN Tailscale; script watchdog em Python para monitoramento de túneis Cloudflare e notificações via e-mail; visualização de dados no Metabase.
+* **Tecnologias:** `Apache Airflow` `Python` `MariaDB` `Metabase` `Docker` `Termux`
+
+---
 
 ### [Pipeline ETL e Dashboard Executivo: Oficina Bobo Benz](./oficina-bobo-benz-etl)
 Pipeline completo (End-to-End) que transforma registros brutos e desnormalizados de uma oficina mecânica em um banco de dados relacional estruturado, alimentando um dashboard executivo.
@@ -25,10 +33,3 @@ Pipeline completo (End-to-End) que transforma registros brutos e desnormalizados
 Projeto de engenharia de banco de dados focado na modelagem, normalização e implementação de um sistema robusto para substituir controles manuais na operação de uma pizzaria.
 * **Destaques técnicos:** Modelagem ER e Lógica com herança (superclasse/especializações), normalização validada até a 3FN, restrições avançadas de integridade (`CHECK`, `ENUM`, `ON DELETE CASCADE`) e consultas analíticas baseadas em Álgebra Relacional.
 * **Tecnologias:** `PostgreSQL` `SQL` `Modelagem ER`
-
----
-
-## Contato
-
-* **LinkedIn:** [Seu Nome / Link do LinkedIn]
-* **E-mail:** [Seu E-mail Profissional]
