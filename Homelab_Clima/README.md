@@ -58,7 +58,6 @@ O script executa as seguintes etapas em um loop infinito:
 
 ![Print do Email de Alerta](documentacao/email_watchdog.png)
 
-![Estrutura do projeto](documentacao/arquitetura.png)
 
 
 ## 🔒 Nota de Segurança

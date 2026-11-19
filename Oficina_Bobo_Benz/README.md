@@ -24,7 +24,7 @@ O banco de dados foi estruturado para evitar redundâncias e permitir a ligaçã
 - **Material:** Catálogo único de peças (extraído da coluna multivalorada do CSV).
 - **ServicesMaterial:** Tabela associativa que resolve o relacionamento N:N entre Serviços e Peças.
 
-![Modelo Relacional](\images\Modelo_relacional.png)
+![Modelo Relacional](images\Modelo_relacional.png)
 
 ## Principais Desafios Superados
 - **Limpeza de Dados:** Tratamento de strings inconsistentes (ex: "30k" em vez de 30000) e valores nulos que quebravam a inserção no banco.
@@ -37,7 +37,7 @@ O dashboard foi desenhado para responder às principais perguntas do gestor da o
 - **Distribuição de Serviços:** Quais serviços são o "pão com manteiga" da loja.
 - **Marcas mais presentes:** Quais serviços são o "pão com manteiga" da loja (Barras e Pizza).
 
-![Dashboard Power BI](\images\Grafico_PowerBI.png)
+![Dashboard Power BI](images\Grafico_PowerBI.png)
 
 ## Como Executar o Projeto
 1. Clone o repositório.

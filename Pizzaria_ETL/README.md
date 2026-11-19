@@ -11,8 +11,8 @@ Projeto acadêmico desenvolvido para a disciplina de Banco de Dados I. O objetiv
 ## Modelagem de Dados
 O banco de dados foi modelado para garantir a integridade dos dados, evitar redundâncias e otimizar as consultas de relatórios da pizzaria.
 
-- **Diagrama Entidade-Relacionamento (ER):** [Ver imagem](docs/diagrama_er.png)
-- **Diagrama Lógico:** [Ver imagem](docs/diagrama_logico.png)
+- **Diagrama Entidade-Relacionamento (ER):** [Ver imagem](docs/Diagrama_ER.png)
+- **Diagrama Lógico:** [Ver imagem](docs/Diagrama_logico.png)
 
 ### Principais Entidades e Relacionamentos
 - **Cliente e Pedido:** Um cliente faz vários pedidos (1:N). O endereço é mantido para pedidos futuros.
